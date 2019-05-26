@@ -6,8 +6,8 @@ class Student < User
      @knowledge = []
    end
    
-   def learn(knowledge)
-      puts knowledge.join(', ')
+   def learn(@knowledge)
+      puts @knowledge.join(', ')
     end
     
 end
